@@ -31,3 +31,4 @@ function addNumber(a, b) {
 // git branch -d - удаляет ветку
 
 // git checkout -b develop - создает новую ветку develop (сокращенная запись)
+// git checkout -b release/1.0 - создание ветки release/1.0 релизы все имеют версионность
