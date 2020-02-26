@@ -29,3 +29,5 @@ function addNumber(a, b) {
 // git branch implement-new-logic - создает новую ветку с названием implement-new-logic
 // git checkout - переходит на ветку
 // git branch -d - удаляет ветку
+
+// git checkout -b develop - создает новую ветку develop (сокращенная запись)
