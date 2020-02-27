@@ -28,9 +28,19 @@ function addNumber(a, b) {
 // git branch - посмотреть список веток в гите. звездочка показывает текущую ветку
 // git branch implement-new-logic - создает новую ветку с названием implement-new-logic
 // git checkout - переходит на ветку
-// git branch -d - удаляет ветку
+// git branch -D - удаляет ветку
 
 // git checkout -b develop - создает новую ветку develop (сокращенная запись)
 // git checkout -b release/1.0 - создание ветки release/1.0 релизы все имеют версионность
 // git flow feature start implement-registration - создать фичу(начало работы над фичей)
 // git flow feature finish implement-registration - окончание работы над фичей
+
+// создание релиза: 
+
+// git flow release start 1.1 - создает ветку релиза
+// git flow release finish '1.1' - мержит и удаляет ветку релиза
+
+// git tag - список тегов, между которыми можно перемещаться(обычно это релизы)
+// git tag 1.1 - создает тег-метку на тот момент, когда мы его написали. 
+// git checkout -b 1.2 - создает ветку с состоянием, которое было привязано этому тегу
+// git push origin --tags - пуш тегов
