@@ -32,3 +32,5 @@ function addNumber(a, b) {
 
 // git checkout -b develop - создает новую ветку develop (сокращенная запись)
 // git checkout -b release/1.0 - создание ветки release/1.0 релизы все имеют версионность
+// git flow feature start implement-registration - создать фичу(начало работы над фичей)
+// git flow feature finish implement-registration - окончание работы над фичей
